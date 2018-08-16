@@ -6,37 +6,39 @@ import android.os.Bundle;
 import android.view.View;
 
 public class p5 extends AppCompatActivity {
-    int point = getIntent().getIntExtra("pointt",0) ;
+    int point;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_p5);
+        setContentView(R.layout.activity_p1);
+        point = getIntent().getIntExtra("pointt",0);
     }
-public void onee (View v){
-    Intent i = new Intent (this, end.class);
-    i.putExtra("pointt",point);
-    startActivity(i);
 
-}
+    public void onee (View v){
+        Intent i = new Intent (this, end.class);
+        i.putExtra("pointt",point);
+        startActivity(i);
+    }
+
     public void secondd (View v){
         Intent i = new Intent (this, end.class);
         i.putExtra("pointt",point);
         startActivity(i);
-
     }
+
     public void thirdd (View v){
         Intent i = new Intent (this, end.class);
-        point ++;
+        point++;
         i.putExtra("pointt",point);
         startActivity(i);
-
     }
+
     public void fourth (View v){
         Intent i = new Intent (this, end.class);
         i.putExtra("pointt",point);
         startActivity(i);
-
     }
+
 }
 

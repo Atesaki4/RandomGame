@@ -13,6 +13,14 @@
             android:scaleType="centerCrop"
             android:src="@drawable/game" />
 
+    <ImageView
+        android:id="@+id/p_imagem"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:src="@drawable/bug"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+
     <Button
         android:id="@+id/sec"
         style="@style/Widget.AppCompat.Button.Colored"
@@ -22,7 +30,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginBottom="183dp"
         android:layout_marginEnd="63dp"
-        android:onClick="secc"
+        android:onClick="secondd"
         android:text="2"
         android:textColor="@color/colorPrimaryDark" />
 
@@ -46,7 +54,7 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/sec"
         android:layout_below="@+id/one"
-        android:onClick="fourthh"
+        android:onClick="fourth"
         android:text="4"
         android:textColor="@color/colorPrimaryDark" />
 

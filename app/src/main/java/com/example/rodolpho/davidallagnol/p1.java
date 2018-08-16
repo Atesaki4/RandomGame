@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 public class p1 extends AppCompatActivity {
-    int point;
+    int point = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -15,7 +15,7 @@ public class p1 extends AppCompatActivity {
 
     public void onee (View v){
         Intent i = new Intent (this, p2.class);
-        point ++;
+        point++;
         i.putExtra("pointt",point);
         startActivity(i);
 
@@ -36,6 +36,5 @@ public class p1 extends AppCompatActivity {
         Intent i = new Intent (this, p2.class);
         i.putExtra("pointt",point);
         startActivity(i);
-
     }
 }
