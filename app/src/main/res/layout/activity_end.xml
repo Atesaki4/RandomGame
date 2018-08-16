@@ -35,6 +35,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="160dp"
+        android:fontFamily="@font/audiowide"
         android:text="You Got"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
