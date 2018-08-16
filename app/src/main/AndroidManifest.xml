@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".p1" />
+        <activity android:name=".points" />
+        <activity android:name=".info" />
+        <activity android:name=".p2" />
+        <activity android:name=".p4" />
+        <activity android:name=".p3" />
+        <activity android:name=".p5" />
+        <activity android:name=".end"></activity>
     </application>
 
 </manifest>
