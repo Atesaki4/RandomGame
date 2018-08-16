@@ -24,6 +24,10 @@
         <activity android:name=".p3" />
         <activity android:name=".p5" />
         <activity android:name=".end"></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
